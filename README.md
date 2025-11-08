@@ -1,2 +1,2 @@
-# simple-antivirus-2
+# simple-antivirus
 Basit Antivirus Programı
