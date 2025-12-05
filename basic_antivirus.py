@@ -9,7 +9,6 @@ MALWARE_HASHES = {
 }
 
 def get_file_md5(filepath):
-    """Dosyanın MD5 hash'ini hesaplar."""
     hash_md5 = hashlib.md5()
     try:
         with open(filepath, "rb") as f:
@@ -21,7 +20,6 @@ def get_file_md5(filepath):
         return None
 
 def scan_directory(directory):
-    """Klasör içindeki dosyaları tarar ve kötü amaçlı dosyaları raporlar."""
     infected_files = []
     total_files = 0
 
